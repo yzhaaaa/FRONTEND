@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- lang should always be included in the html tag, to declare the language of the web page. This is meant to assist search engines and browsers -->
+ <!-- country code can also be included e.g., en-US -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <a> defines a hyperlink, href attribute specifies the URL of the page the link goes to -->
+    <a href="www.youtube.com">Visit YT</a>
+
+    <!-- <img> used to embed an image in a HTML page. src attribute specifies the path to the image to be displayed -->
+    <!-- width and height specifies the size of the image -->
+     <!-- alt is required as it is used as an alternative display if the image fails to load or when the user is using a screen reader -->
+    <img src="no-img.jpg" alt="no-image" width="10" height="10">
+    <!-- absoulute URL
+                - links to an external image that is hosted on another website
+        relative URL
+                - links to an image that is hosted within the website
+                - url does not include domain name
+                - slash
+                    - url didn't begin with slash
+                        - relative to the current page
+                    - url starts with slash
+                        - relative to the domain                    
+    -->
+
+    <!-- style is used to add styles to an element -->
+    <p style="color:red;">This is a red paragraph</p>
+
+    <!-- title attribute defines some extra information about an element -->
+    <!-- the value will be displayed as a tooltip when your mouse hovers over the element -->
+    <p title="I'm a tooltip">This is a paragraph</p>
+</body>
+</html>
+
+<!-- 
+We Suggest: Always Use Lowercase Attributes
+    The HTML standard does not require lowercase attribute names.
+
+    The title attribute (and all other attributes) can be written with uppercase or lowercase like title or TITLE.
+
+    However, W3C recommends lowercase attributes in HTML, and demands lowercase attributes for stricter document types like XHTML. 
+
+We Suggest: Always Quote Attribute Values
+    The HTML standard does not require quotes around attribute values.
+
+    However, W3C recommends quotes in HTML, and demands quotes for stricter document types like XHTML.
+
+Sometimes you have to use quotes. This example will not display the title attribute correctly, because it contains a space
+<p title=Description of W3Schools>
+
+Single or Double Quotes?
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+-->
